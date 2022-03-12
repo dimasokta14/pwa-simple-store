@@ -1,6 +1,5 @@
 import React from "react";
 import { Button } from "../global/button";
-import { Container } from "../global/container";
 import * as Icon from "react-feather";
 
 const index: React.FC = () => {
