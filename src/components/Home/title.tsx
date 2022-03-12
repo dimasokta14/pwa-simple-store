@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import "./style.scss";
 import { BaliIcon } from "../../utils/customIcon";
 import { Button } from "../global/button";
@@ -12,7 +12,7 @@ const Title: React.FC = () => {
 	}, []);
 	return (
 		<div className="flex-space-between-column gap-sm">
-			<img src={BaliIcon} />
+			<img src={BaliIcon} alt="icon" />
 			<div className="main-title-wrapper">
 				<h2 className="title">because</h2>
 				<h2 className="title-city-name">bali</h2>
